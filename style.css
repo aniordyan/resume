@@ -1,0 +1,116 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+ol{
+  list-style-type: upper-roman;
+}
+
+#a{
+  list-style-type: disc;
+  color:#a9294f;
+}
+  
+.b{
+  list-style-type: square;
+}
+.title{
+  
+  
+  position: relative;
+  left: -5px;
+
+}
+.c{
+  color:#790c5a
+  
+}
+
+
+  .e:hover {
+  background-color: #03c4a1;
+}
+
+.mypara{
+  font-family: 'Elsie Swash Caps', cursive;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+ 
+  color: black;
+}
+.ul{
+  border: solid;
+  list-style-position: inside;
+  padding: 10px 20px;
+  border-radius: 0 20%
+}
+hr{
+  border-style: none none dashed none;
+  border-color: white;
+  width:50%;
+  text-align:center;
+  border-width: thick;
+}
+ol>a>li{
+  list-style-type:upper-roman;
+  border: solid;
+  border-color: black;
+  padding: 10px 20px;
+  list-style-position: inside;
+
+
+}
+.a {
+  background-color: #ffb4b4;
+  color: white;
+  padding: 10px;
+  text-align: center}
+.a:hover {
+  background-color: #ff9292;
+}
+.b{
+  background-color: #ffb4b4;
+  color: white;
+  padding: 10px;
+  text-align: center}
+.b:hover {
+  background-color: #ff9292;
+}
+.c{
+  background-color: #ffb4b4;
+  color: white;
+  padding: 10px;
+  text-align: center}
+.c:hover {
+  background-color: #ff9292;
+}
+.img{
+   width="50px";
+   height="100px";
+  float: left;
+  width: 300px;
+  height: 500px
+}
+.animation {
+  width: 800px;
+  height: 50px;
+  background-color: #aa96da;
+  animation-name: anim;
+  animation-duration: 4s;
+}
+
+@keyframes anim {
+  0%   {background-color: #ffb6b9;}
+  25%  {background-color: #fae3d9;}
+  50%  {background-color: #bbded6;}
+  100% {background-color: #61c0bf;}
+}

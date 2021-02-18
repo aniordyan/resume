@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+ <title>Ani Ordyan's Resume</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Personal Resume">
+  <meta name="keywords" content="resume,about me, my skills and hobbies, contact me">
+  <meta name="author" content="Ani Ordyan">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="favicon (1).ico">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 200px;
+  text-align: center;
+  background-image: url("library aesthetic girl.jpg");
+  color: white;
+
+}
+
+/* Style the top navigation bar */
+.navbar {
+  display: flex;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Info about me */
+.info {
+  background-color: #f1d1d0;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+.info:hover {
+  background-color: #fbaccc;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+h1{
+  font-family:cursive, "Times New Roman";
+  font-size: 60px;
+  font-style: italic;
+  font-weight: 100;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- Note -->
+<div style="background:yellow;padding:5px">
+  <h4 style="text-align:center">!Welcome to my first site!</h4>
+</div>
+
+<!-- Header -->
+<div class="header">
+  <h1>Ani Ordyan</h1>
+  <p style="font-size: 30px">Personal Resume.</p>
+  <hr>
+</div>
+
+<!-- Navigation Bar -->
+<div class="navbar">
+  <a href="myskills2.html">My skills and hobbies</a>
+  <a href="contactme.html">Contact me</a>
+</div>
+
+<!-- The flexible grid (content) -->
+<div class="row">
+  <div class="side">
+    <h2>About Me</h2>
+    <ul class="ul">
+      <li>Name: Ani Ordyan</li>
+      <li>Bithdate: 03.01.2005</li>
+      <li>Age: 16</li>
+      <li>Location: Aygedzor village, Tavush region, Armenia</li>
+      <li>Telephone: +374 98712521  </li>
+
+      
+    </ul>
+
+    <img src="sun.jpg" width="280px" height="260px" alt="Picture">
+    <p> "The secret of success is to do the common thing uncommonly well." -John D. Rockefeller Jr.</p>
+    <h3>I want to learn:</h3>
+    
+      <div class="a"> <a href="https://www.python.org">Python</a></div><br>
+      <div class="b"> <a href="https://www.javascript.com">JavaScript</a></div><br>
+      <div class="c"> <a href="https://en.wikipedia.org/wiki/C%2B%2B">C++</a></div><br>
+   
+    <h3>I've already learned</h3>
+    <div class="info" style="height:60px;"><a href="https://www.w3schools.com/html/">HTML</a> </div><br>
+    <div class="info" style="height:60px;"><a href="https://www.w3schools.com/css/">CSS</a></div>
+  
+  </div>
+  <div class="main">
+    <h2>RESUME</h2>
+    <div class="animation"></div>
+    <img src="landscape.jpg" width="300px" height="250px" alt="Picture 1">
+    
+    <p>I study at the Aygedzor Seconadry school. I'm in the 10th grade.</p>
+    <p>I want to become a professional programmer in future.</p>
+    <br>
+    <h3>My interestings</h3>
+      <img class="img" src="art.jpg"  alt="Picture 2">
+    
+    <p>I'm a big fan of art. My favourite painters are Claude Monet, Johannes Vermeer, Ivan Aivazovsky. </p>
+    <p >In my free time I love to watch films. I like fantastic, detective and comedy films.</p>
+  </div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+<footer>
+  <p>Author: Ordyan Ani<br>
+  <a href="mailto:ordyanani@gmail.com">ordyanani@gmail.com</a><br>
+  2021
+  </p>
+  
+  </footer>
+</div>
+
+</body>
+</html>
